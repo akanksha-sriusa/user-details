@@ -1,0 +1,15 @@
+<br>
+<div class="panel panel-default" *ngIf="userDetailData!= null">
+  <div class="panel-heading">
+    <h3 class="panel-title"> {{userDetailData?.fname }} <span> {{userDetailData?.lname }}</span></h3>
+  </div>
+  
+  <div class="panel-body">
+    <div class="userinfo">
+      <p *ngIf="userDetailData!= null"> First Name : <span class="colorchange"> {{userDetailData?.fname }} </span></p>
+      <p *ngIf="userDetailData!= null"> Last Name: <span class="colorchange"> {{userDetailData?.lname }}</span></p>
+      <p *ngIf="userDetailData!= null"> Number: <span class="colorchange"> {{userDetailData?.number }}</span> </p>
+      <p *ngIf="userDetailData!= null"> Email: <span class="colorchange"> {{userDetailData?.email }}</span> </p>
+    </div>
+  </div>
+</div>

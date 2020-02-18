@@ -1,0 +1,32 @@
+[
+  {
+    "fname": " John ",
+    "lname": " Doe",
+    "email": "john.doe@gmail.com",
+    "number": "555-555-5555"
+  },
+  {
+    "fname": " Will ",
+    "lname": " Smith",
+    "email": "willsmith05@gmail.com",
+    "number": "222-532-5555"
+  },
+  {
+    "fname": " Helen ",
+    "lname": " shoe",
+    "email": "Helen_shoe@gmail.com",
+    "number": "111-222-3333"
+  },
+  {
+    "fname": " Paige ",
+    "lname": " Turner",
+    "email": "paige732@gmail.com",
+    "number": "232-345-2222"
+  },
+  {
+    "fname": " Ben ",
+    "lname": " Lackmen",
+    "email": "Ben.Lackmen@gmail.com",
+    "number": "999-999-9999"
+  }
+]

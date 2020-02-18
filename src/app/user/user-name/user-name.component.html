@@ -1,0 +1,8 @@
+<br>
+<div class="card">
+  <ul class="list-group list-group-flush">
+    <li *ngFor="let i of userNameData" class="list-group-item">
+      <a class="name-tag" (click)="onNameClick(i.fname,i.lname,i.number,i.email)">{{i.fname}}</a>
+    </li>
+  </ul>
+</div>
